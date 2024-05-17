@@ -1,0 +1,70 @@
+@chartset "UTF-8";
+body{
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "遊ゴシック Medium", 'YuGothic', 'YuGothicM', "Hiragino Kaku Gothic ProN", 'Meiryo', sans-serif;
+  color: #000
+}
+a,
+a:link{
+  color: #3585b7;
+}
+a:visited{
+  color: #6252b7;
+}
+a:hover{
+  text-decoration: none;
+  color: #555;
+}
+
+header{
+  display: flex;
+}
+header h1{
+  margin: 20px 0 0 0 auto;
+}
+header nav{
+  margin: 0 0 0 auto;
+}
+header nav ul{
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul a,
+header nav ul a:link,
+header nav ul a:visited{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #888;
+}
+header nav ul li a:hover{
+  color: #888;
+}
+
+footer{
+  background-color: #f2f8f8;
+  padding: 20px;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0 0 5px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li{
+  margin: 0 0 0 20px;
+}
+footer ul li a,
+footer ul li a:link
+footer ul li a:visited{
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+footer ul li a:hover{
+  
+}
